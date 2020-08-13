@@ -1,0 +1,34 @@
+.navbar {
+  height: 90px;
+  display: flex;
+  padding: 0 15%;
+  z-index: 2;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  .navbarBrand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    svg {
+      height: 50px;
+      width: auto;
+    }
+  }
+  .navBarMenu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    .navBarMenuItem {
+      cursor: pointer;
+      padding: 0 0 0 20px;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 15px;
+      color: white;
+      &Active {
+        color: goldenrod;
+      }
+    }
+  }
+}
